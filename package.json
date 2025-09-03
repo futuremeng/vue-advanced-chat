@@ -1,19 +1,22 @@
 {
 	"name": "@futuremeng/vue-advanced-chat",
-	"version": "2.0.9",
+	"version": "2.0.10",
 	"license": "MIT",
 	"description": "A beautiful chat rooms component made with Vue.js",
 	"author": {
 		"email": "futuremeng@gmail.com",
 		"name": "Future Meng"
 	},
-	"contributors": [{
-		"email": "antoindupontdev@gmail.com",
-		"name": "Antoine Dupont"
-	},{
-		"email": "pdsu.wwz@foxmail.com",
-		"name": "Wisdom"
-	}],
+	"contributors": [
+		{
+			"email": "antoindupontdev@gmail.com",
+			"name": "Antoine Dupont"
+		},
+		{
+			"email": "pdsu.wwz@foxmail.com",
+			"name": "Wisdom"
+		}
+	],
 	"types": "./types/vue-advanced-chat.common.d.ts",
 	"keywords": [
 		"vue",
