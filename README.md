@@ -6,7 +6,7 @@
   <a href="https://www.npmjs.com/package@futuremeng/vue-advanced-chat"><img src="https://img.shields.io/npm/l@futuremeng/vue-advanced-chat.svg"></a>
 </p>
 
-# @futuremeng/vue-advanced-chat
+# vue-advanced-chat
 
 Based on the [vue-advanced-chat](https://github.com/advanced-chat/vue-advanced-chat) component, we will extend its message types by referencing the implementation approach used in [chatgpt-vue3-light-mvp](https://github.com/pdsuwwz/chatgpt-vue3-light-mvp), to create a customized version of vue-advanced-chat that supports additional message formats and interaction patterns.
 
