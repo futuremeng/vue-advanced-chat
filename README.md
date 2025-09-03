@@ -1,12 +1,18 @@
 <p align="center">
-  <a href="https://github.com/advanced-chat/vue-advanced-chat/actions/workflows/release.yml"><img src="https://img.shields.io/github/actions/workflow/status/advanced-chat/vue-advanced-chat/release.yml?branch=main"></a>
-  <a href="https://www.npmjs.com/package/vue-advanced-chat"><img src="https://img.shields.io/npm/dm/vue-advanced-chat.svg"></a>
-  <a href="https://www.npmjs.com/package/vue-advanced-chat"><img src="https://img.shields.io/bundlephobia/minzip/vue-advanced-chat"></a>
-  <a href="https://www.npmjs.com/package/vue-advanced-chat"><img src="https://img.shields.io/npm/v/vue-advanced-chat.svg"></a>
-  <a href="https://www.npmjs.com/package/vue-advanced-chat"><img src="https://img.shields.io/npm/l/vue-advanced-chat.svg"></a>
+  <a href="https://github.com/futuremeng/vue-advanced-chat/actions/workflows/release.yml"><img src="https://img.shields.io/github/actions/workflow/status/futuremeng/vue-advanced-chat/release.yml?branch=main"></a>
+  <a href="https://www.npmjs.com/package/@futuremeng/vue-advanced-chat"><img src="https://img.shields.io/npm/dm/@futuremeng/vue-advanced-chat.svg"></a>
+  <a href="https://www.npmjs.com/package/@futuremeng/vue-advanced-chat"><img src="https://img.shields.io/bundlephobia/minzip/@futuremeng/vue-advanced-chat"></a>
+  <a href="https://www.npmjs.com/package/@futuremeng/vue-advanced-chat"><img src="https://img.shields.io/npm/v/@futuremeng/vue-advanced-chat.svg"></a>
+  <a href="https://www.npmjs.com/package@futuremeng/vue-advanced-chat"><img src="https://img.shields.io/npm/l@futuremeng/vue-advanced-chat.svg"></a>
 </p>
 
-# vue-advanced-chat
+# @futuremeng/vue-advanced-chat
+
+Based on the [vue-advanced-chat](https://github.com/advanced-chat/vue-advanced-chat) component, we will extend its message types by referencing the implementation approach used in [chatgpt-vue3-light-mvp](https://github.com/pdsuwwz/chatgpt-vue3-light-mvp), to create a customized version of vue-advanced-chat that supports additional message formats and interaction patterns.
+
+This customization will allow the chat component to handle more diverse message types, such as rich text content, interactive elements, or AI-generated responses, enhancing the overall user experience while maintaining compatibility with the existing vue-advanced-chat API and data structure.
+
+The extended message types will follow the same prop structure and event handling mechanisms as the original component, ensuring seamless integration with existing implementations while providing additional flexibility for advanced use cases.
 
 ![Demo Image](demo/src/assets/web_mobile.png)
 
@@ -80,10 +86,10 @@ You will get a fully working chat application for web and mobile:
 
 ```bash
 # Using npm
-npm install --save vue-advanced-chat
+npm install --save @futuremeng/vue-advanced-chat
 
 # Using yarn
-yarn add vue-advanced-chat
+yarn add @futuremeng/vue-advanced-chat
 
 # Using CDN
 <script src="https://cdn.jsdelivr.net/npm/vue-advanced-chat@2.0.4/dist/vue-advanced-chat.umd.js"></script>
@@ -101,15 +107,15 @@ compilerOptions: {
 }
 ```
 
-Demo: https://github.com/advanced-chat/vue-advanced-chat-sandbox/tree/main
+Demo: https://github.com/futuremeng/vue-advanced-chat-sandbox/tree/main
 
 ### React
 
-Demo: https://github.com/advanced-chat/vue-advanced-chat-sandbox/tree/react
+Demo: https://github.com/futuremeng/vue-advanced-chat-sandbox/tree/react
 
 ### Angular / Ionic
 
-Demo: https://github.com/advanced-chat/vue-advanced-chat-sandbox/tree/angular
+Demo: https://github.com/futuremeng/vue-advanced-chat-sandbox/tree/angular
 
 <br>
 
@@ -855,7 +861,7 @@ You can find the source code to implement a full featured chat app using Firebas
 To test it using your own Firebase project:
 
 - Setup Cloud Firestore (to store users and rooms) and Realtime Database (to store users online status)
-- Clone this repository: `git clone https://github.com/advanced-chat/vue-advanced-chat.git`
+- Clone this repository: `git clone https://github.com/futuremeng/vue-advanced-chat.git`
 - Inside `demo/src/database/index.js` file, replace the line `const config = ...` by your own Firebase config
 - Go inside `demo` folder and run `npm run serve`
 
@@ -916,7 +922,7 @@ messages: {
 
 <br>
 
-## [Contributing](https://github.com/advanced-chat/vue-advanced-chat/blob/master/.github/CONTRIBUTING.md)
+## [Contributing](https://github.com/futuremeng/vue-advanced-chat/blob/master/.github/CONTRIBUTING.md)
 
 Your help is always appreciated :rocket:
 
