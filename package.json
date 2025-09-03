@@ -1,12 +1,19 @@
 {
-	"name": "vue-advanced-chat",
+	"name": "@futuremeng/vue-advanced-chat",
 	"version": "2.0.9",
 	"license": "MIT",
-	"description": "A beautiful chat rooms component made with Vue.js - compatible with Vue, React & Angular",
+	"description": "A beautiful chat rooms component made with Vue.js",
 	"author": {
+		"email": "futuremeng@gmail.com",
+		"name": "Future Meng"
+	},
+	"contributors": [{
 		"email": "antoindupontdev@gmail.com",
 		"name": "Antoine Dupont"
-	},
+	},{
+		"email": "pdsu.wwz@foxmail.com",
+		"name": "Wisdom"
+	}],
 	"types": "./types/vue-advanced-chat.common.d.ts",
 	"keywords": [
 		"vue",
@@ -20,12 +27,12 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/advanced-chat/vue-advanced-chat.git"
+		"url": "git+https://github.com/futuremeng/vue-advanced-chat.git"
 	},
 	"bugs": {
-		"url": "https://github.com/advanced-chat/vue-advanced-chat/issues"
+		"url": "https://github.com/futuremeng/vue-advanced-chat/issues"
 	},
-	"homepage": "https://github.com/advanced-chat/vue-advanced-chat#readme",
+	"homepage": "https://github.com/futuremeng/vue-advanced-chat#readme",
 	"main": "./dist/vue-advanced-chat.umd.js",
 	"module": "./dist/vue-advanced-chat.es.js",
 	"unpkg": "./dist/vue-advanced-chat.umd.js",
