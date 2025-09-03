@@ -137,7 +137,7 @@ Demo: https://github.com/futuremeng/vue-advanced-chat-sandbox/tree/angular
 </template>
 
 <script>
-  import { register } from 'vue-advanced-chat'
+  import { register } from '@futuremeng/vue-advanced-chat'
   register()
 
   // Or if you used CDN import
@@ -158,6 +158,30 @@ Demo: https://github.com/futuremeng/vue-advanced-chat-sandbox/tree/angular
     }
   }
 </script>
+```
+
+setup
+
+```javascript
+<template>
+  <vue-advanced-chat :current-user-id="currentUserId" :rooms="JSON.stringify(rooms)"
+    :messages="JSON.stringify(messages)" :room-actions="JSON.stringify(roomActions)" />
+</template>
+
+<script setup lang="ts">
+import { register } from '@futuremeng/vue-advanced-chat'
+
+register()
+
+const currentUserId = ref('1')
+const rooms = ref([])
+const messages = ref([])
+const roomActions = ref([])
+
+</script>
+
+<style scoped lang="less"></style>
+
 ```
 
 ### Important notes
