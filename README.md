@@ -88,6 +88,9 @@ You will get a fully working chat application for web and mobile:
 # Using npm
 npm install --save @futuremeng/vue-advanced-chat
 
+# Using pnpm
+pnpm add @futuremeng/vue-advanced-chat
+
 # Using yarn
 yarn add @futuremeng/vue-advanced-chat
 
