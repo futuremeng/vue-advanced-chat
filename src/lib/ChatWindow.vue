@@ -126,7 +126,7 @@ export default {
 	},
 
 	props: {
-		height: { type: String, default: '600px' },
+		height: { type: String, default: '100%' },
 		theme: { type: String, default: 'light' },
 		styles: { type: [Object, String], default: () => ({}) },
 		responsiveBreakpoint: { type: Number, default: 900 },
